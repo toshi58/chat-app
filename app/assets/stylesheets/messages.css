@@ -13,12 +13,40 @@
 .side-header {
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.side-list {
+.side-header-name a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.create-room a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+}
+
+.chat-rooms {
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat-room {
+  padding: 20px 0 40px;
+}
+
+.chat-room a {
+  text-decoration: none;
+  color: white;
 }
 
 /* チャット */

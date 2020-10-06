@@ -122,7 +122,7 @@
   padding: 20px 40px;
 }
 
-.chat-form form {
+.form {
   width: 100%;
   display: flex;
   justify-content: space-between;
